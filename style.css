@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgba(236, 234, 234, 0.856);
+}
+
+h1 {
+  font-weight: 800;
+}
+
+nav {
+  list-style: none;
+  padding: 20px 0px;
+}
+ul li {
+  padding: 10px 0px;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.925);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.925);
+}
+
+a:hover {
+  color: rgb(209, 152, 45);
+}
+
+.profile-img {
+  padding-bottom: 30px;
+}
+
+.profile-content {
+  padding-bottom: 30px;
+}
+
+#portfolio {
+  padding: 30px 0px;
+  text-transform: uppercase;
+}
+
+.section-2 p {
+  padding: 20px 0px;
+}
+
+.section-2 img {
+  width: 100%;
+}
+
+#contact {
+  padding: 30px 0px;
+  text-transform: uppercase;
+}
+
+h3 {
+  padding: 20px 0px;
+}
+
+footer p {
+  padding: 10px 0px;
+}
+
+.footer-bottom {
+  padding: 10px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-to-top {
+  text-transform: uppercase;
+}
+
+.nav-footer {
+  display: none;
+}
+
+.nav-footer ul li {
+  padding: 0px 20px;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav li {
+    list-style: none;
+  }
+
+  a:hover {
+    color: rgb(255, 176, 29);
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .profile-content {
+    padding: 30px 50px;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .profile-img {
+    padding: 30px;
+  }
+
+  .container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+  }
+
+  .portfolio p {
+    padding: 20px 40px;
+  }
+
+  footer p {
+    font-size: 1.6rem;
+  }
+
+  .footer-content {
+    padding: 50px 160px;
+    text-align: left;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .nav-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul li {
+    padding: 0px 20px;
+  }
+
+  a:hover {
+    color: rgb(255, 176, 29);
+  }
+  .section-1 p {
+    padding: 50px 150px 50px 40px;
+  }
+
+  .section-1 img {
+    padding: 0px 50px;
+  }
+
+  .container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-gap: 20px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+
+  .nav-footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-footer ul li {
+    padding: 0px 20px;
+  }
+}
